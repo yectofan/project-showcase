@@ -8,9 +8,9 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Router className="Page">
+      <Router className="Page" basename={process.env.PUBLIC_URL}>
         <Route path="/" exact component={Home}/>
-        <Route path={process.env.PUBLIC_URL +"/CV"} component={CV}/>
+        <Route path="/CV" component={CV}/>
       </Router>
     </div>
   );
