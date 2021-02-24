@@ -10,7 +10,7 @@ function App() {
       <Navbar/>
       <Router className="Page">
         <Route path="/" exact component={Home}/>
-        <Route path="/CV" component={CV}/>
+        <Route path={process.env.PUBLIC_URL +"/CV"} component={CV}/>
       </Router>
     </div>
   );
