@@ -11,7 +11,7 @@ function App() {
         <Navbar/>
         <Switch>
           <Route path="/" exact component={Home}/>
-          <Route path="/CV" exact component={CV}/>
+          <Route path="/CV" component={CV}/>
           <Redirect to="/"/>
         </Switch>
       </Router>
