@@ -37,6 +37,10 @@
     transition: all 0.2s ease-out;
 }
 
+.link {
+    text-decoration: none;
+}
+
 .fa-bars {
     color: #fff;
 }
