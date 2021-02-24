@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from "./components/Navbar/Navbar";
-import {Route, BrowserRouter as Router} from 'react-router-dom';
+import {Route, HashRouter as Router} from 'react-router-dom';
 import Home from './Pages/Home';
 import CV from './Pages/CV';
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Router className="Page" basename={process.env.PUBLIC_URL}>
+      <Router className="Page">
         <Route path="/" exact component={Home}/>
         <Route path="/CV" component={CV}/>
       </Router>
