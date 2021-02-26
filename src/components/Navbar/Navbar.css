@@ -127,7 +127,7 @@
     .dropdown.active {
         background: #3da4ab;
         position: absolute;
-        top: 281px;
+        top: 280px;
         left: 0;
         padding: 0;
         margin: 0;
@@ -158,12 +158,12 @@
     }
 
     .nav-links:hover {
-        background-color: #f6cd61;
+        background-color: #0e9aa7;
         border-radius: 0;
     }
 
     .dropdown-links:hover {
-        background-color: #f6cd61;
+        background-color: #3da4ab;
         border-radius: 0;
     }
 
