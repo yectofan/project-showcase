@@ -9,9 +9,22 @@ export const MenuItems = [
         url: '/CV',
         cName: 'nav-links'
     },
+]
+
+export const DropdownItems = [
     {
-        title: 'Projects',
+        title: 'Project 1',
         url: '#',
-        cName: 'nav-links'
+        cName: 'dropdown-links'
+    },
+    {
+        title: 'Project 2',
+        url: '#',
+        cName: 'dropdown-links'
+    },
+    {
+        title: 'Project 3',
+        url: '#',
+        cName: 'dropdown-links'
     },
 ]

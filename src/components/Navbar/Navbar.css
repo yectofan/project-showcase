@@ -25,7 +25,32 @@
     margin-right: 2rem;
 }
 
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    grid-gap: 1.5rem;
+    top: -500px;
+    right: 0;
+    padding : 1rem;
+    margin: 0;
+    transition: all 0.5s ease;
+    z-index: -2;
+}
+
+.dropdown.active {
+    background: #3da4ab;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    padding: 1rem;
+    margin: 0;
+    transition: all 0.5s ease;
+    z-index: -2;
+}
+
 .nav-links {
+    display: flex;
     color: #fff;
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -37,16 +62,20 @@
     transition: all 0.2s ease-out;
 }
 
+.dropdown-links {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.dropdown-links:hover {
+    background-color: #f6cd61;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
 .link {
     text-decoration: none;
-}
-
-.fa-bars {
-    color: #fff;
-}
-
-.nav-links-mobile {
-    display: none;
 }
 
 .menu-icon {
@@ -63,7 +92,7 @@
         flex-direction: column;
         width: 100%;
         position: absolute;
-        top: -500%;
+        top: -500px;
         left: 0;
         padding : 0;
         margin: 0;
@@ -82,6 +111,30 @@
         z-index: -1;
     }
 
+    .dropdown {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: -500px;
+        left: 0;
+        padding : 0;
+        margin: 0;
+        transition: all 0.5s ease;
+        z-index: -2;
+    }
+
+    .dropdown.active {
+        background: #3da4ab;
+        position: absolute;
+        top: 281px;
+        left: 0;
+        padding: 0;
+        margin: 0;
+        transition: all 0.5s ease;
+        z-index: -2;
+    }
+
     .nav-links {
         text-align: center;
         padding-top: 2rem;
@@ -91,11 +144,26 @@
         width: 100%;
         display: table;
         position: relative;
-        z-index: 1;
+    }
+
+    .dropdown-links {
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        display: table;
+        position: relative;
     }
 
     .nav-links:hover {
-        background-color: #3da4ab;
+        background-color: #f6cd61;
+        border-radius: 0;
+    }
+
+    .dropdown-links:hover {
+        background-color: #f6cd61;
         border-radius: 0;
     }
 
@@ -113,6 +181,10 @@
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
+    }
+
+    .fa-bars {
+        color: #fff;
     }
 
     .fa-times {
