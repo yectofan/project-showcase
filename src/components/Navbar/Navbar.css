@@ -90,6 +90,7 @@
     .nav-menu {
         display: flex;
         flex-direction: column;
+        grid-gap: 0;
         width: 100%;
         position: absolute;
         top: -500px;
@@ -101,7 +102,7 @@
     }
 
     .nav-menu.active {
-        background: #0e9aa7;
+        background: none;
         position: absolute;
         top: 80px;
         left: 0;
@@ -114,8 +115,9 @@
     .dropdown {
         display: flex;
         flex-direction: column;
+        grid-gap: 0;
         width: 100%;
-        position: absolute;
+        position: relative;
         top: -500px;
         left: 0;
         padding : 0;
@@ -126,8 +128,8 @@
 
     .dropdown.active {
         background: #3da4ab;
-        position: absolute;
-        top: 280px;
+        position: relative;
+        top: 0;
         left: 0;
         padding: 0;
         margin: 0;
@@ -136,6 +138,7 @@
     }
 
     .nav-links {
+        background: #0e9aa7;
         text-align: center;
         padding-top: 2rem;
         padding-bottom: 2rem;
@@ -158,13 +161,11 @@
     }
 
     .nav-links:hover {
-        background-color: #0e9aa7;
-        border-radius: 0;
+        background: #0e9aa7;
     }
 
     .dropdown-links:hover {
-        background-color: #3da4ab;
-        border-radius: 0;
+        background-color: inherit;
     }
 
     .navbar-title {
