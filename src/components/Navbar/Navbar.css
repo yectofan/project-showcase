@@ -11,7 +11,7 @@
     color: #fff;
     justify-self: start;
     margin-left: 20px;
-    cursor: pointer;
+    cursor: context-menu;
 }
 
 .nav-menu {
@@ -83,6 +83,7 @@
 }
 
 @media screen and (max-width: 960px) {
+
     .NavbarItems{
         position: relative;
     }
@@ -162,10 +163,13 @@
 
     .nav-links:hover {
         background: #0e9aa7;
+        border-radius: 0;
     }
 
     .dropdown-links:hover {
-        background-color: inherit;
+        background-color: #3da4ab;
+        border-radius: 0;
+        
     }
 
     .navbar-title {
@@ -193,4 +197,12 @@
         font-size: 2rem;
     }
 
+}
+
+@media screen and (max-width: 280px) {
+
+    .navbar-title{
+        
+        font-size: 0.5rem;
+    }
 }
