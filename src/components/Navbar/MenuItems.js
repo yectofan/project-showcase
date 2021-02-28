@@ -18,7 +18,7 @@ export const DropdownItems = [
         cName: 'dropdown-links'
     },
     {
-        title: 'VR firepit',
+        title: 'VR Firepit',
         url: '#',
         cName: 'dropdown-links'
     },
@@ -28,7 +28,7 @@ export const DropdownItems = [
         cName: 'dropdown-links'
     },
     {
-        title: 'Ball physics',
+        title: 'Ball Physics',
         url: '#',
         cName: 'dropdown-links'
     },
