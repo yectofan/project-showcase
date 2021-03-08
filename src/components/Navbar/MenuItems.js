@@ -14,52 +14,52 @@ export const MenuItems = [
 export const DropdownItems = [
     {
         title: 'Hole in the Wall',
-        url: '#',
+        url: '/Hole-In-The-Wall',
         cName: 'dropdown-links'
     },
     {
         title: 'VR Firepit',
-        url: '#',
+        url: '/VR-Firepit',
         cName: 'dropdown-links'
     },
     {
         title: 'VR Data Visualisation',
-        url: '#',
+        url: '/VR-Data-Visualisation',
         cName: 'dropdown-links'
     },
     {
         title: 'Ball Physics',
-        url: '#',
+        url: '/Ball-Physics',
         cName: 'dropdown-links'
     },
     {
         title: 'Banking App',
-        url: '#',
+        url: '/Banking-App',
         cName: 'dropdown-links'
     },
     {
         title: 'Macabre Maze',
-        url: '#',
+        url: '/Macabre-Maze',
         cName: 'dropdown-links'
     },
     {
         title: '3D Renderer',
-        url: '#',
+        url: '/3D-Renderer',
         cName: 'dropdown-links'
     },
     {
         title: '3D Modelling',
-        url: '#',
+        url: '/3D-Modelling',
         cName: 'dropdown-links'
     },
     {
         title: 'Stack',
-        url: '#',
+        url: '/Stack',
         cName: 'dropdown-links'
     },
     {
         title: 'Rooms',
-        url: '#',
+        url: '/Rooms',
         cName: 'dropdown-links'
     },
 ]
